@@ -1,0 +1,257 @@
+*
+{
+    font-family: "Poppins";
+    margin: 0;
+    padding: 0;;
+}
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.1),rgba(4,9,30,0.1)),url(images/turtle1.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    justify-content: center;
+   
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 150px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}     
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px;
+    position: relative;
+}
+.nav-links ul li a{
+     color: whitesmoke;
+     text-decoration: none;
+     font-size: 11px;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: lightslategray;
+    display: block;
+    margin: auto;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.text-box{
+    width: 90%;
+    color: antiquewhite;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 62px;
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: bisque;
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: aliceblue;
+    border: 1px solid #fff ;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.hero-btn:hover{
+border: 1px solid lightslategray;
+background: lightslategray;
+transition: 1s;
+}
+
+.sub-header{
+    height: 30vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),URL(images/R.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: rgba(216, 189, 189, 0.509);
+}
+
+/*footer*/
+ .footer{
+    background-color: #aaaaaa;
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+    position: relative;
+    top: 100px;
+ }
+
+ .footer h4{
+    margin-bottom: 25px;
+    color: black;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 20px;
+ }
+ .icons .fa{
+    color: black;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px o;
+ }
+
+ .cards {
+    margin: 0 150px;
+    max-width: 1000px;
+    max-height: 500px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 10px;
+    padding-top: 0px;
+    grid-row-gap: 20px;
+    
+   
+}
+
+.cardbgimg{
+    background-image: linear-gradient(rgba(4,9,30,0.3),rgba(4,9,30,0.3)),url(images/pexels-photo-27.jpeg);
+    padding-top: 50px;
+    padding-bottom: 100px;
+    position: relative;
+    top: -25px;
+    
+}
+
+
+
+.cards * {
+    box-sizing: border-box;
+}
+
+.card_image {
+    background-color: rgba(216, 202, 202, 0.986);
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+   
+}
+
+.card{
+    margin: 30% 0 0 0;
+    position: relative;
+    width: 100%;
+}
+
+.card_image{
+    display: block;
+    width: 100%;
+    height: 300px;
+}
+
+.card_content{
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color:rgb(103, 0, 0) (0,0,0,0.7);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .3s ease;
+    text-align: center;
+    color: aliceblue;
+    border-style: ridge;
+    border-color: #ffffff;
+}
+
+.card:hover .card_content{
+    height: 100%;
+
+}
+p{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+h1{
+    font-size: 40px;
+    color: #5b4848;
+}
+
+.cards{
+    min-height: 50vh;
+    width: 200%;
+    
+}
+
+.about-greenturtles{
+    width: 100%;
+    height: 130vh;
+    background-image: linear-gradient(rgba(4,9,30,0.3),rgba(4,9,30,0.3)),url(images/pexels-photo-28.webp);
+    position: relative;
+    top: -25px;
+    left: 0%;
+  
+  border-style: dashed;
+  border-color: black;
+ 
+    
+}
+
+.about-greenturtles img{
+top: 30px;
+    margin-left: 45px;
+left: -18px;
+}
+.about-greenturtles h1{
+    padding-top: 20px;
+    padding-right: 200px;
+    padding-bottom: 25px;
+    color: rgb(169, 254, 254);
+}
+
+.about-greenturtles p{
+    font-size: 18px;
+    padding: 15px 0 25px;
+    object-position: right;
+    color: #ffffff;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    
+}
+.greenturtlemap{
+    position: relative;
+    left: -15%;
+}
+
+.tableturtlec{
+    height: 300px;
+    width: 1000px;
+    left: 130px;
+position: relative;
+bottom: -3800px;
+table-layout: initial;
+border-style:dashed;
+color:black;
+background-image: linear-gradient(rgba(4,9,30,0.3),rgba(4,9,30,0.3)),url(images/pexels-photo-03.jpeg);
+}

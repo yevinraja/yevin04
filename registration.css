@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    height:max-content;
+    background-image: linear-gradient(rgba(4,9,30,0.5),rgba(4,9,30,0.5)),URL(images/pexels-photo-373458.jpeg);
+}
+
+.sub-header1{
+    height: 20vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.1),rgba(4,9,30,0.1)),url(images/741a36c473ac8c94bb9f1ce89ed70c3b.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: rgba(105, 56, 56, 0.509);
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.1),rgba(4,9,30,0.1)),url(images/741a36c473ac8c94bb9f1ce89ed70c3b);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+   
+    
+}
+
+.nav-links{
+    flex: 1;
+    text-align: right;
+}     
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: rgb(238, 215, 215);
+    text-decoration: none;
+    font-size: 25px;
+    position: relative;
+    right: -60px;
+    top: -50px;
+    font-weight: lighter;
+
+}
+
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    left: -100;
+    
+}
+.section{
+    position: relative;
+    left: 0px;
+    top: -1000px;
+}
+
+nav img{
+    width: 100px;
+    position: relative;
+    right: 1000px;
+    bottom: 15px;
+    
+  }
+  
+
+.container {
+    float: left;
+    width: 50%;
+    position: relative;
+    background-image: linear-gradient(rgba(4,9,30,0.1),rgba(4,9,30,0.1)),url(images/pexels-photo-172277.jpeg);
+  }
+
+  .h2{
+color: #e6e6e6;
+  }
+
+  .summaryTable{
+    color:whitesmoke;
+}
+
+
+.section{
+    position: relative;
+left: 800px;
+    top: -450px;
+    color: whitesmoke;
+    width: fit-content;
+    max-height: max-content;
+     font-weight: lighter;
+    
+}
+
+.container form{
+    width: 100%;
+    height:100%;
+    max-width: 500px;
+    padding: 50px 30px 20px;
+    background: #e6e6e6;
+    border-radius: 4px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+    position: relative;
+    left: 133px;
+    top: 1px;
+}
+
+.input-group{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    position: relative;
+}
+.input-group label{
+    flex-basis: 28%;
+}
+.input-group input, .input-group textarea{
+    flex-basis: 68%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 10px 0;
+    border-bottom: 1px solid #999;
+    color: #333;
+    font-size: 16px;
+}
+::placeholder{
+    font-size: 14px;
+   
+}
+
+#continueBtn {
+    position: relative;
+    bottom: 650px;
+    left: 420px;
+    padding: 10px 20px;
+    background-color: #4d9653;
+    color: #ffffff;
+    border: outset;
+    cursor: pointer;
+    
+  }
+ 
+.input-group span{
+    position: absolute;
+    bottom: 12px;
+    right: 17px;
+    font-size: 14px;
+    color:red;
+
+}
+.input-group span i{
+    color: seagreen;
+}
+.select{
+    position: relative;
+    display: flex;
+    width: 20em;
+    height: 2em;
+    line-height: 3;
+    background-color: #000000;
+    overflow: hidden;
+    
+    color: #fff;
+    cursor: pointer;
+    left: -195px;
+}
+select::-ms-expand {
+    display: none;
+}
+
+footer{
+    background-color:black;
+}
+
+.footercontainer{
+width: 100%;
+height: 20%;
+padding: 70px 30px 20px;
+background-color: #000000;
+position: relative;
+top: -32px;
+}
+
+.socialicons{
+    display: flex;
+    justify-content: center;
+}
+
+.socialicons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.socialicons a i{
+    font-size: 2em;
+    color: #000000;
+    opacity:0.9;
+}
+
+.socialicons a:hover{
+    background-color: #ffffff;
+    transition: 0.5s;
+}
+.socialicons a:hover i{
+    color: #a81f1f;
+    transition: 0.5s;
+}
+
+.footernav{
+    margin: 30px 0;
+}
+
+.footernav ul{
+    display: flex;
+    justify-content: center;
+}
+
+.footernav ul li a{
+    color: #ffffff;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.footernav ul li a:hover{
+    opacity: 1s;
+}
+ 

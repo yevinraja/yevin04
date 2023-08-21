@@ -1,0 +1,271 @@
+*
+{
+    font-family: "Poppins";
+    margin: 0;
+    padding: 0;
+}
+
+nav img{
+  width: 100px;
+  position: relative;
+  right: 1000px;
+  bottom: 15px;
+}
+
+.sub-header1{
+        height: 20vh;
+        width: 100%;
+        background-image: linear-gradient(rgba(4,9,30,0.1),rgba(4,9,30,0.1)),url(images/741a36c473ac8c94bb9f1ce89ed70c3b.jpg);
+        background-position: center;
+        background-size: cover;
+        text-align: center;
+        color: rgba(105, 56, 56, 0.509);
+    }
+    .header{
+        min-height: 100vh;
+        width: 100%;
+        background-image: linear-gradient(rgba(4,9,30,0.1),rgba(4,9,30,0.1)),url(images/741a36c473ac8c94bb9f1ce89ed70c3b);
+        background-position: center;
+        background-size: cover;
+        position: relative;
+
+    }
+    nav{
+        display: flex;
+        padding: 2% 6%;
+        justify-content: space-between;
+       
+        
+    }
+   
+    .nav-links{
+        flex: 1;
+        text-align: right;
+    }     
+    .nav-links ul li{
+        list-style: none;
+        display: inline-block;
+        padding: 8px;
+        position: relative;
+    }
+    .nav-links ul li a{
+         color: rgb(238, 215, 215);
+         text-decoration: none;
+         font-size: 25px;
+         position: relative;
+         right: -60px;
+         top: -50px;
+         font-weight: lighter;
+
+    }
+    
+    .nav-links ul li:hover::after{
+        width: 100%;
+    }
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+  }
+ 
+  h1 {
+    text-align: center;
+    position: relative;
+    bottom: 130px;
+    font-size: 50px;
+    color:rgb(255, 237, 237);
+    font-weight: 600;
+  }
+ 
+  .section {
+    margin-bottom: 20px;
+    
+  }
+
+#duration{
+ width: 135px;
+ bottom: 20px;
+ left: -80px;
+ position: relative;
+ color: rgb(254, 254, 254);
+ background-color: #504343;
+ 
+}
+
+h2{
+  position: relative;
+  right: 100px;
+}
+
+#reservation-date{
+  left: 60px;
+  bottom: 45px;
+ position: relative;
+ color: rgb(255, 255, 255);
+ background-color: #504343;
+}
+
+
+  #guestsTable{
+    width: 450px;
+    background-image: linear-gradient(rgba(4,9,30,0.1),rgba(4,9,30,0.1)),url(images/pexels-photo-172277.jpeg);
+    position: relative;
+    left: -130px;
+    top: -25px;
+  }
+
+  h2{
+    position: relative;
+    top: -25px;
+    left: -125px;
+    color: rgb(207, 207, 207);
+    font-size: 18px;
+    font-family: cursive;
+    }
+ 
+ #summaryTable{
+  background-image: linear-gradient(rgba(4,9,30,0.1),rgba(4,9,30,0.1)),url(images/pexels-photo-172277.jpeg);
+  width: 500px;
+  left: 100px;
+  position: relative;
+  left: 450px;
+  top: -460px;
+ }
+
+ #summaryTable td{
+  color: aliceblue;
+  font-size: medium;
+  font-weight: 900;
+  
+ }
+
+ #guestsTable td{
+  color: aliceblue;
+  font-size: medium;
+  font-weight: 900;
+  
+ }
+
+  /*------------------------------------------------------------------------------------------------------*/
+ 
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+    background-color: gray;
+    
+  }
+ 
+
+  th, td {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #ccc;
+  }
+ 
+  #continueBtn01 {
+    
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #003204;
+    color: #ffffff;
+    border: outset;
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+    left: 910px;
+    top: -465px;
+    font-size: x-large;
+  }
+ 
+ .main{
+    background-image: linear-gradient(rgba(4,9,30,0.5),rgba(4,9,30,0.5)),URL(images/pexels-photo-373458.jpeg);
+ }
+ 
+ .calendar{
+    color: black;
+ }
+
+p{
+  color: aliceblue;
+  font-size: medium;
+  font-weight: 900;
+  position: relative;
+  left: 50px;
+  top: -10px;
+
+}
+
+footer{
+    background-color:black;
+}
+
+.footercontainer{
+width: 100%;
+padding: 70px 30px 20px;
+background-color: #000000;
+position: relative;
+top: -28px;
+}
+
+.socialicons{
+    display: flex;
+    justify-content: center;
+}
+
+.socialicons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.socialicons a i{
+    font-size: 2em;
+    color: #000000;
+    opacity:0.9;
+}
+
+.socialicons a:hover{
+    background-color: #742828;
+    transition: 0.5s;
+}
+.socialicons a:hover i{
+    color: #a81f1f;
+    transition: 0.5s;
+}
+
+.footernav{
+    margin: 30px 0;
+}
+
+.footernav ul{
+    display: flex;
+    justify-content: center;
+}
+
+.footernav ul li a{
+    color: #ffffff;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.footernav ul li a:hover{
+    opacity: 1s;
+}
+ 
+.dsection h2{
+  position: relative;
+  left: -120px;
+  
+}
+
+#guestsTable h2{
+  position: relative;
+  bottom: 100px;
+}
